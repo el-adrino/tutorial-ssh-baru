@@ -1,0 +1,13 @@
+konfigurasi git dgn ssh lama
+
+1. eval "$(ssh-agent -s)"
+2. ssh-add
+3. chmod 600 ~/.ssh/id_rsa
+
+-------------------------------------------------------------
+
+perlakuan untuk folder /var/www/html
+1. sudo chown xeladrinox /var/www/html/
+2. sudo a2enmod
+
+
